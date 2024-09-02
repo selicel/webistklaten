@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        /* Custom styles */
-        .card-header {
-            font-weight: bold;
-        }
-        .card {
-            margin-bottom: 20px;
-        }
-        .dashboard-header {
-            background-color: #003366;
-            color: white;
-            padding: 15px;
-            margin-bottom: 20px;
-        }
-        .dashboard-header h1 {
-            margin: 0;
-        }
-        .nav-link {
-            color: white !important;
-        }
-    </style>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <style>
+            /* Custom styles */
+            .navbar-custom {
+                background-color: #103863; /* Adjust this to match the blue color */
+            }
+            .navbar-custom .navbar-brand,
+            .navbar-custom .navbar-nav .nav-link {
+                color: white;
+            }
+            .navbar-custom .navbar-nav .dropdown-menu {
+                background-color: white;
+            }
+            .navbar-custom .navbar-nav .dropdown-menu .dropdown-item {
+                color: #007bff;
+            }
+            .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover {
+                background-color: #f8f9fa;
+            }
+             /* Centering navbar items */
+            .navbar-custom .navbar-nav {
+                margin-left: 125px;
+                margin-right: 75px;
+            }
+        </style>
+    </head>
 <body>
+<!-- Include the Navbar -->
+@include ('navbar')
 
-    <!-- Dashboard Header -->
-    <div class="dashboard-header">
-        <div class="container">
-            <h1>EPSS</h1>
-        </div>
-    </div>
+<!-- Content Below Navbar -->
+<div class="container mt-3">
+    <h1>Dashboard</h1>
+    <!-- Your dashboard content goes here -->
+</div>
+
+<!-- Optional JavaScript -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Main Content -->
     <div class="container">
@@ -77,7 +85,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="card">
-                    <div class="card-header">Nilai Kabupaten/Kota</div>
+                    <div class="card-header">Nilai Mandiri</div>
                     <div class="card-body">
                         <h2>3.3</h2>
                     </div>
@@ -85,7 +93,7 @@
             </div>
             <div class="col-md-6">
                 <div class="card">
-                    <div class="card-header">Nilai Provinsi</div>
+                    <div class="card-header">Nilai Internal BPS</div>
                     <div class="card-body">
                         <h2>2.3</h2>
                     </div>
@@ -95,7 +103,7 @@
 
         <!-- Graph (Using Chart.js for example) -->
         <div class="card">
-            <div class="card-header">Penilaian Pelayanan Publik Berdasarkan Kabupaten/Kota</div>
+            <div class="card-header">Evaluasi Penyelenggaraan Statistik Sektoral Berdasarkan Penilaian</div>
             <div class="card-body">
                 <canvas id="myChart"></canvas>
             </div>
@@ -109,17 +117,17 @@
         var myChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['Cilacap', 'Banyumas', 'Purbalingga', 'Banjarnegara', 'Kebumen', 'Purworejo', 'Wonosobo', 'Magelang', 'Boyolali', 'Klaten', 'Sukoharjo', 'Wonogiri', 'Karanganyar', 'Sragen', 'Grobogan', 'Blora', 'Rembang', 'Pati', 'Kudus', 'Jepara', 'Demak', 'Semarang', 'Temanggung', 'Kendal', 'Batang', 'Pekalongan', 'Pemalang', 'Tegal', 'Brebes'],
+                labels: ['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'],
                 datasets: [{
-                    label: 'Nilai Kab/Kota',
-                    data: [3, 2.5, 3.2, 3.6, 4, 2.8, 3.1, 3.5, 3.8, 4, 3.7, 3.4, 4, 3.6, 4.1, 4.3, 3.9, 4.2, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 5, 4.5, 4.3, 4.7],
+                    label: 'Nilai Mandiri',
+                    data: [3, 2.5, 3.2, 3.6, 4, 2.8, 3.1, 3.5, 3.8, 4, 3.7, 3.4],
                     backgroundColor: 'rgba(54, 162, 235, 0.2)',
                     borderColor: 'rgba(54, 162, 235, 1)',
                     borderWidth: 1
                 },
                 {
-                    label: 'Nilai Provinsi',
-                    data: [2, 2.5, 2.1, 2.3, 2.8, 2.6, 2.4, 2.2, 2.7, 3, 2.9, 2.8, 3.1, 2.9, 3.3, 3.5, 3.2, 3.1, 3.3, 3.4, 3.2, 3.1, 3.4, 3.5, 3.7, 3.4, 3.6, 3.9],
+                    label: 'Nilai Internal',
+                    data: [2, 2.5, 2.1, 2.3, 2.8, 2.6, 2.4, 2.2, 2.7, 3, 2.9, 2.8],
                     backgroundColor: 'rgba(75, 192, 192, 0.2)',
                     borderColor: 'rgba(75, 192, 192, 1)',
                     borderWidth: 1
