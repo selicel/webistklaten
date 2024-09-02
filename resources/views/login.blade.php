@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Login EPSS</title>
+    <link href="img/logo_epss.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(120deg, #3498db, #8e44ad);
+            background: linear-gradient(120deg, #FC6843, #F8B400);
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
             margin: 0;
+            text-align: center;
         }
 
         .login-container {
@@ -22,6 +25,11 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             max-width: 400px;
             width: 100%;
+        }
+
+        .login-container img {
+            max-width: 100px; /* Adjust the size of the logo if necessary */
+            margin-bottom: 20px;
         }
 
         .login-container h2 {
@@ -45,7 +53,7 @@
             padding: 10px;
             border: none;
             border-radius: 5px;
-            background-color: #3498db;
+            background-color: #103863;
             color: #fff;
             font-size: 18px;
             cursor: pointer;
@@ -64,7 +72,8 @@
 </head>
 <body>
     <div class="login-container">
-        <h2>Login EPSS</h2>
+        <img src="img/logo_epss.png" alt="EPSS Logo">
+        <h2>Login</h2>
         <form action="login.php" method="post">
             <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>

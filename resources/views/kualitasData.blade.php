@@ -56,50 +56,62 @@
                 <tbody>
                     <tr kode="1">
                         <td>1</td>
-                        <td>Standar Data Statistik</td>
-                        <td>Tingkat Kematangan Penerapan Standar Data Statistik (SDS)</td>
+                        <td>Relevansi</td>
+                        <td>Tingkat Kematangan Relevansi Data Terhadap Pengguna</td>
                         <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>2</td>
                         <td>2</td>
                         <td>2</td>			
                         <td><font color="32cd32">Dinilai </font></td>	
-                        <!-- <td><a href="https://webapps.bps.go.id/jateng/sinergiev/penilaian/updatenilai/271" ><i class="bi bi-pen" title="Input Nilai"></i></a></td> -->
+                        <td><a href="https://webapps.bps.go.id/jateng/sinergiev/penilaian/updatenilai/271" ><i class="bi bi-pen" title="Input Nilai"></i></a></td>
                         <!-- <td><a href="#" onclick="return f_kirim('271');"><i class="fa fa-send text-green" title="Kirim"></i></a></td> -->
                     </tr>
                     <tr kode="2">
                         <td>2</td>
-                        <td>Metadata Statistik</td>
-                        <td>Tingkat Kematangan Penerapan Metadata Statistik</td>
+                        <td></td>
+                        <td>Tingkat Kematangan Proses Identifikasi Kebutuhan Data</td>
                         <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>			   
                         <td><font color="32cd32">Dinilai </font></td>	
-                        <!-- <td><a href="https://webapps.bps.go.id/jateng/sinergiev/penilaian/updatenilai/272" ><i class="bi bi-pen" title="Input Nilai"></i></a></td> -->
+                        <td><a href="https://webapps.bps.go.id/jateng/sinergiev/penilaian/updatenilai/272" ><i class="bi bi-pen" title="Input Nilai"></i></a></td>
                         <!-- <td><a href="#" onclick="return f_kirim('272');"><i class="fa fa-send text-green" title="Kirim"></i></a></td> -->
                     </tr>
                     <tr kode="3">
                         <td>3</td>
-                        <td>Interoperabilitas Data</td>
-                        <td>Tingkat Kematangan Penerapan Interoperabilitas Data</td>
+                        <td>Akurasi</td>
+                        <td>Tingkat Kematangan Penilaian Akurasi Data</td>
                         <td><a href=#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>3</td>
                         <td>3</td>
                         <td>0.21</td>			
                         <td><font color="32cd32">Dinilai </font></td>	
-                        <!-- <td><a href="https://webapps.bps.go.id/jateng/sinergiev/penilaian/updatenilai/273" ><i class="bi bi-pen" title="Input Nilai"></i></a></td> -->
+                        <td><a href="https://webapps.bps.go.id/jateng/sinergiev/penilaian/updatenilai/273" ><i class="bi bi-pen" title="Input Nilai"></i></a></td>
                         <!-- <td><a href="#" onclick="return f_kirim('273');"><i class="fa fa-send text-green" title="Kirim"></i></a></td> -->
                     </tr>
                     <tr kode="4">
                         <td>4</td>
-                        <td>Kode Referensi dan/atau Data Induk</td>
-                        <td>Tingkat Kematangan Penerapan Kode Referensi</td>
+                        <td>Aktualitas &amp; Ketepatan Waktu</td>
+                        <td>Tingkat Kematangan Penjaminan Aktualitas Data</td>
                         <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>0</td>
                         <td>0</td>
                         <td>0</td>			
                         <td><font color="32cd32">Dinilai </font></td>	
-                        <!-- <td><a href="https://webapps.bps.go.id/jateng/sinergiev/penilaian/updatenilai/274" ><i class="bi bi-pen" title="Input Nilai"></i></a></td> -->
+                        <td><a href="https://webapps.bps.go.id/jateng/sinergiev/penilaian/updatenilai/274" ><i class="bi bi-pen" title="Input Nilai"></i></a></td>
+                        <!-- <td><a href="#" onclick="return f_kirim('274');"><i class="fa fa-send text-green" title="Kirim"></i></a></td>     -->
+                    </tr>
+                    <tr kode="5">
+                        <td>5</td>
+                        <td></td>
+                        <td>Tingkat Kematangan Pemantauan Ketepatan Waktu Diseminasi</td>
+                        <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>			
+                        <td><font color="32cd32">Dinilai </font></td>	
+                        <td><a href="https://webapps.bps.go.id/jateng/sinergiev/penilaian/updatenilai/274" ><i class="bi bi-pen" title="Input Nilai"></i></a></td>
                         <!-- <td><a href="#" onclick="return f_kirim('274');"><i class="fa fa-send text-green" title="Kirim"></i></a></td>     -->
                     </tr>
                 </tbody>

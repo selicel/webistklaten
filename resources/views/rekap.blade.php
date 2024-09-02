@@ -4,16 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rekap Penilaian LKE PEKP3 Per Aspek</title>
+    <title>Rekap Penilaian</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Ensure the body and html take full height */
+        html, body {
+            height: 100%;
+        }
+
+        /* Set up flexbox on the body */
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* The main content should take up all remaining space */
+        .content {
+            flex: 1;
+        }
+
+        /* Footer styling */
+        .footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
 
-<!-- Include the Navbar -->
-@include ('navbar')
+    <!-- Include the Navbar -->
+    @include ('navbar')
 
-    <div class="container mt-5">
+    <!-- Main content area with flex-grow -->
+    <div class="container mt-5 content">
         <div class="text-center mb-4">
             <h2>Rekap Penilaian Indeks Pembangunan Statistik</h2>
         </div>
@@ -71,6 +96,9 @@
             </div>
         </div>
     </div>
+
+    <!-- Footer -->
+    @include('footer')
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.css" rel="stylesheet">

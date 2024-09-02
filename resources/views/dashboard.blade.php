@@ -1,55 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <style>
-            /* Custom styles */
-            .navbar-custom {
-                background-color: #103863; /* Adjust this to match the blue color */
-            }
-            .navbar-custom .navbar-brand,
-            .navbar-custom .navbar-nav .nav-link {
-                color: white;
-            }
-            .navbar-custom .navbar-nav .dropdown-menu {
-                background-color: white;
-            }
-            .navbar-custom .navbar-nav .dropdown-menu .dropdown-item {
-                color: #007bff;
-            }
-            .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover {
-                background-color: #f8f9fa;
-            }
-             /* Centering navbar items */
-            .navbar-custom .navbar-nav {
-                margin-left: 125px;
-                margin-right: 75px;
-            }
-        </style>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPSS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="img/logo_epss.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+</head>
 <body>
-<!-- Include the Navbar -->
-@include ('navbar')
+    <!-- Include the Navbar -->
+    @include('navbar')
 
-<!-- Content Below Navbar -->
-<div class="container mt-3">
-    <h1>Dashboard</h1>
-    <!-- Your dashboard content goes here -->
-</div>
-
-<!-- Optional JavaScript -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
-
+    <!-- Content Below Navbar -->
+    <div class="container mt-3">
+        <h3>Dinas Kesehatan Kabupaten Klaten</h3>
+        <!-- Your dashboard content goes here -->
+    </div>
     <!-- Main Content -->
     <div class="container">
         <div class="row">
             <div class="col-md-3">
                 <div class="card text-white bg-danger">
-                    <div class="card-header">Jumlah Indikator Belum dinilai</div>
+                    <div class="card-header" style="font-size: 13.5px">Jumlah Indikator Belum Dinilai</div>
                     <div class="card-body">
                         <h2 class="card-title">0</h2>
                     </div>
@@ -57,7 +30,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card text-white bg-warning">
-                    <div class="card-header">Jumlah Indikator Sedang diperiksa</div>
+                    <div class="card-header" style="font-size: 13.5px">Jumlah Indikator Sedang Diperiksa</div>
                     <div class="card-body">
                         <h2 class="card-title">0</h2>
                     </div>
@@ -65,7 +38,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card text-white bg-success">
-                    <div class="card-header">Jumlah Indikator Dinilai</div>
+                    <div class="card-header" style="font-size: 13.5px">Jumlah Indikator Dinilai</div>
                     <div class="card-body">
                         <h2 class="card-title">27</h2>
                     </div>
@@ -73,7 +46,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card text-white bg-primary">
-                    <div class="card-header">Jumlah Indikator Final</div>
+                    <div class="card-header" style="font-size: 13.5px">Jumlah Indikator Final</div>
                     <div class="card-body">
                         <h2 class="card-title">0</h2>
                     </div>
@@ -82,10 +55,10 @@
         </div>
         
         <!-- Charts or other content here -->
-        <div class="row">
+        <div class="row" style="margin-top: 10px">
             <div class="col-md-6">
                 <div class="card">
-                    <div class="card-header">Nilai Mandiri</div>
+                    <div class="card-header">Nilai IPS Mandiri</div>
                     <div class="card-body">
                         <h2>3.3</h2>
                     </div>
@@ -93,7 +66,7 @@
             </div>
             <div class="col-md-6">
                 <div class="card">
-                    <div class="card-header">Nilai Internal BPS</div>
+                    <div class="card-header">Nilai IPS Internal BPS</div>
                     <div class="card-body">
                         <h2>2.3</h2>
                     </div>
@@ -102,13 +75,16 @@
         </div>
 
         <!-- Graph (Using Chart.js for example) -->
-        <div class="card">
+        <div class="card" style="margin-top: 10px">
             <div class="card-header">Evaluasi Penyelenggaraan Statistik Sektoral Berdasarkan Penilaian</div>
             <div class="card-body">
                 <canvas id="myChart"></canvas>
             </div>
         </div>
     </div>
+
+    <!-- Include Footer -->
+    @include('footer')
 
     <!-- Optional JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -136,7 +112,9 @@
             options: {
                 scales: {
                     y: {
-                        beginAtZero: true
+                        beginAtZero: true,
+                        suggestedMin: 0, // Set minimum value to 0
+                        suggestedMax: 5  // Set maximum value to 5
                     }
                 }
             }
