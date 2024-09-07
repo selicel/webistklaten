@@ -208,6 +208,11 @@
                             <th>Nilai</th>
                             <th>Predikat</th>
                         </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>

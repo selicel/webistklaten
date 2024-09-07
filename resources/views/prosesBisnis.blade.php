@@ -33,7 +33,7 @@
 
     <div class="container mt-5">
         <section class="content-header">
-            <h2>Kualitas Data</h2>
+            <h2>Proses Bisnis Statistik</h2>
         </section>
 
         <div class="card card-body" style="height: max-content">
@@ -56,8 +56,8 @@
                 <tbody>
                     <tr kode="1">
                         <td>1</td>
-                        <td>Relevansi</td>
-                        <td>Tingkat Kematangan Relevansi Data terhadap Pengguna</td>
+                        <td>Perencanaan Data</td>
+                        <td>Tingkat Kematangan Pendefinisian Kebutuhan Statistik</td>
                         <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>2</td>
                         <td>2</td>
@@ -69,7 +69,7 @@
                     <tr kode="2">
                         <td>2</td>
                         <td></td>
-                        <td>Tingkat Kematangan Proses Identifikasi Kebutuhan Data</td>
+                        <td>Tingkat Kematangan Desain Statistik</td>
                         <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>0</td>
                         <td>0</td>
@@ -80,8 +80,8 @@
                     </tr>
                     <tr kode="3">
                         <td>3</td>
-                        <td>Akurasi</td>
-                        <td>Tingkat Kematangan Penilaian Akurasi Data</td>
+                        <td></td>
+                        <td>Tingkat Kematangan Penyiapan Instrumen</td>
                         <td><a href=#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>3</td>
                         <td>3</td>
@@ -92,8 +92,8 @@
                     </tr>
                     <tr kode="4">
                         <td>4</td>
-                        <td>Aktualitas &amp; Ketepatan Waktu</td>
-                        <td>Tingkat Kematangan Penjaminan Aktualitas Data</td>
+                        <td>Pengumpulan Data</td>
+                        <td>Tingkat Kematangan Proses Pengumpulan Data/Akuisisi Data</td>
                         <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>0</td>
                         <td>0</td>
@@ -104,8 +104,8 @@
                     </tr>
                     <tr kode="5">
                         <td>5</td>
-                        <td></td>
-                        <td>Tingkat Kematangan Pemantauan Ketepatan Waktu Diseminasi</td>
+                        <td>Pemeriksaan Data</td>
+                        <td>Tingkat Kematangan Pengolahan Data</td>
                         <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>0</td>
                         <td>0</td>
@@ -116,8 +116,8 @@
                     </tr>
                     <tr kode="6">
                         <td>6</td>
-                        <td>Aksesibilitas</td>
-                        <td>Tingkat Kematangan Ketersediaan Data untuk Pengguna Data</td>
+                        <td></td>
+                        <td>Tingkat Kematangan Analisis Data</td>
                         <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>0</td>
                         <td>0</td>
@@ -128,44 +128,8 @@
                     </tr>
                     <tr kode="7">
                         <td>7</td>
-                        <td></td>
-                        <td>Tingkat Kematangan Akses Media Penyebarluasan Data</td>
-                        <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>			
-                        <td><font color="32cd32">Dinilai </font></td>	
-                        <!-- <td><a href="https://webapps.bps.go.id/jateng/sinergiev/penilaian/updatenilai/274" ><i class="bi bi-pen" title="Input Nilai"></i></a></td> -->
-                        <!-- <td><a href="#" onclick="return f_kirim('274');"><i class="fa fa-send text-green" title="Kirim"></i></a></td>     -->
-                    </tr>
-                    <tr kode="8">
-                        <td>8</td>
-                        <td></td>
-                        <td>Tingkat Kematangan Penyediaan Format Data</td>
-                        <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>			
-                        <td><font color="32cd32">Dinilai </font></td>	
-                        <!-- <td><a href="https://webapps.bps.go.id/jateng/sinergiev/penilaian/updatenilai/274" ><i class="bi bi-pen" title="Input Nilai"></i></a></td> -->
-                        <!-- <td><a href="#" onclick="return f_kirim('274');"><i class="fa fa-send text-green" title="Kirim"></i></a></td>     -->
-                    </tr>
-                    <tr kode="9">
-                        <td>9</td>
-                        <td>Keterbandingan &amp; Konsistensi</td>
-                        <td>Tingkat Kematangan Keterbandingan Data</td>
-                        <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>			
-                        <td><font color="32cd32">Dinilai </font></td>	
-                        <!-- <td><a href="https://webapps.bps.go.id/jateng/sinergiev/penilaian/updatenilai/274" ><i class="bi bi-pen" title="Input Nilai"></i></a></td> -->
-                        <!-- <td><a href="#" onclick="return f_kirim('274');"><i class="fa fa-send text-green" title="Kirim"></i></a></td>     -->
-                    </tr>
-                    <tr kode="10">
-                        <td>10</td>
-                        <td></td>
-                        <td>Tingkat Kematangan Konsistensi Data</td>
+                        <td>Penyebarluasan Data</td>
+                        <td>Tingkat Kematangan Diseminasi Data</td>
                         <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>0</td>
                         <td>0</td>

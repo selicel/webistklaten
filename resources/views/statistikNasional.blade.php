@@ -33,7 +33,7 @@
 
     <div class="container mt-5">
         <section class="content-header">
-            <h2>Kualitas Data</h2>
+            <h2>Statistik Nasional</h2>
         </section>
 
         <div class="card card-body" style="height: max-content">
@@ -57,7 +57,7 @@
                     <tr kode="1">
                         <td>1</td>
                         <td>Relevansi</td>
-                        <td>Tingkat Kematangan Relevansi Data terhadap Pengguna</td>
+                        <td>Tingkat Kematangan Relevansi Data Terhadap Pengguna</td>
                         <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>2</td>
                         <td>2</td>

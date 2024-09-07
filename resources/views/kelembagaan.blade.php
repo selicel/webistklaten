@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+Route::get('/kualitasData', function () {
+    return view('kualitasData');
+});<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -33,7 +35,7 @@
 
     <div class="container mt-5">
         <section class="content-header">
-            <h2>Kualitas Data</h2>
+            <h2>Kelembagaan</h2>
         </section>
 
         <div class="card card-body" style="height: max-content">
@@ -56,8 +58,8 @@
                 <tbody>
                     <tr kode="1">
                         <td>1</td>
-                        <td>Relevansi</td>
-                        <td>Tingkat Kematangan Relevansi Data terhadap Pengguna</td>
+                        <td>Profesionalitas</td>
+                        <td>Tingkat Kematangan Penjaminan Transparansi Informasi Statistik</td>
                         <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>2</td>
                         <td>2</td>
@@ -69,7 +71,7 @@
                     <tr kode="2">
                         <td>2</td>
                         <td></td>
-                        <td>Tingkat Kematangan Proses Identifikasi Kebutuhan Data</td>
+                        <td>Tingkat Kematangan Penjaminan Netralitas dan Objektivitas terhadap Penggunaan Sumber Data Metodologi</td>
                         <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>0</td>
                         <td>0</td>
@@ -80,8 +82,8 @@
                     </tr>
                     <tr kode="3">
                         <td>3</td>
-                        <td>Akurasi</td>
-                        <td>Tingkat Kematangan Penilaian Akurasi Data</td>
+                        <td></td>
+                        <td>Tingkat Kematangan Penjaminan Kualitas Data</td>
                         <td><a href=#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>3</td>
                         <td>3</td>
@@ -92,8 +94,8 @@
                     </tr>
                     <tr kode="4">
                         <td>4</td>
-                        <td>Aktualitas &amp; Ketepatan Waktu</td>
-                        <td>Tingkat Kematangan Penjaminan Aktualitas Data</td>
+                        <td></td>
+                        <td>Tingkat Kematangan Konfidensialitas Data</td>
                         <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>0</td>
                         <td>0</td>
@@ -104,8 +106,8 @@
                     </tr>
                     <tr kode="5">
                         <td>5</td>
-                        <td></td>
-                        <td>Tingkat Kematangan Pemantauan Ketepatan Waktu Diseminasi</td>
+                        <td>SDM yang Memadai dan Kapabel</td>
+                        <td>Tingkat Kematangan Penerapan Kompetensi Sumber Daya Manusia Bidang Statistik</td>
                         <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>0</td>
                         <td>0</td>
@@ -116,8 +118,8 @@
                     </tr>
                     <tr kode="6">
                         <td>6</td>
-                        <td>Aksesibilitas</td>
-                        <td>Tingkat Kematangan Ketersediaan Data untuk Pengguna Data</td>
+                        <td></td>
+                        <td>Tingkat Kematangan Penerapan Kompetensi Sumber Daya Manusia Bidang Manajemen Data</td>
                         <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>0</td>
                         <td>0</td>
@@ -128,8 +130,8 @@
                     </tr>
                     <tr kode="7">
                         <td>7</td>
-                        <td></td>
-                        <td>Tingkat Kematangan Akses Media Penyebarluasan Data</td>
+                        <td>Pengorganisasian Statistik</td>
+                        <td>Tingkat Kematangan Kolaborasi Penyelenggaraan Kegiatan Statistik</td>
                         <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>0</td>
                         <td>0</td>

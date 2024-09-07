@@ -60,11 +60,11 @@
                         Penilaian
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="prinsipSDI">Prinsip Satu Data Indonesia</a>
-                        <a class="dropdown-item" href="kualitasData">Kualitas Data</a>
-                        <a class="dropdown-item" href="#">Proses Bisnis Statistik</a>
-                        <a class="dropdown-item" href="#">Kelembagaan</a>
-                        <a class="dropdown-item" href="#">Statistik Nasional</a>
+                        <a class="dropdown-item" href="PrinsipSDI">Prinsip Satu Data Indonesia</a>
+                        <a class="dropdown-item" href="KualitasData">Kualitas Data</a>
+                        <a class="dropdown-item" href="ProsesBisnisStatistik">Proses Bisnis Statistik</a>
+                        <a class="dropdown-item" href="Kelembagaan">Kelembagaan</a>
+                        <a class="dropdown-item" href="StatistikNasional">Statistik Nasional</a>
                     </div>
                 </li>
                 <li class="nav-item">
