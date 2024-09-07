@@ -1,0 +1,60 @@
+/* Style for Cards */
+.card-header {
+    font-size: 13.5px;
+}
+
+/* Spacing for Rows */
+.row {
+    margin-top: 10px;
+}
+
+/* Chart Card */
+.card {
+    margin-top: 10px;
+}
+
+/* Custom styles for the chart (if needed) */
+canvas {
+    max-width: 100%;
+}
+
+/* Ensure the body and html take full height */
+html, body {
+    height: 100%;
+}
+
+/* Set up flexbox on the body */
+body {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* The main content should take up all remaining space */
+body .content {
+    flex: 1;
+}
+
+/* Footer styling */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    flex: 1;
+}
+
+footer {
+    flex-shrink: 0;
+}
+

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +7,7 @@
     <title>Login EPSS</title>
     <link href="img/logo_epss.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -38,7 +40,7 @@
             color: #333;
         }
 
-        .login-container input[type="text"],
+        .login-container input[type="email"],
         .login-container input[type="password"] {
             width: 100%;
             padding: 10px;
@@ -74,8 +76,14 @@
     <div class="login-container">
         <img src="img/logo_epss.png" alt="EPSS Logo">
         <h2>Login</h2>
-        <form action="login.php" method="post">
-            <input type="text" name="username" placeholder="Username" required>
+        <form action="/login" method="post">
+            @csrf
+            <input type="email" name="email" placeholder="Email" required autofocus class="@error('email') is-invalid @enderror" value="{{old('email')}}">
+            @error('email')
+                <div class="invalid-feedback">
+                    {{$message}}
+                </div>
+            @enderror
             <input type="password" name="password" placeholder="Password" required>
             <input type="submit" value="Login">
         </form>

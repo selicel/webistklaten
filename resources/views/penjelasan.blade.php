@@ -6,12 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penjelasan</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="img/logo_epss.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <style>
-         table, th, td {
-            border: 1px solid black;
-            text-align: center;
-        }
+         body {
+      display: grid;
+      grid-template-rows: 1fr auto;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+         table {
+        margin: 0 auto; /* Centers the table */
+        width: auto; /* Ensures the table width is determined by its content */
+        border-collapse: collapse;
+        border: 1px solid #ddd;
+    }
         th, td {
             padding: 10px;
         }
@@ -44,11 +55,11 @@
             <!-- Bab 1 -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         Penjelasan Umum
                     </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <strong>Lorem Ipsum.</strong> 
                         Statistik memiliki arti penting dalam penyusunan kebijakan pembangunan nasional. Kegiatan statistik dituntut untuk menghasilkan statistik yang berkualitas, cepat, dan bermanfaat sesuai kebutuhan pengguna. Oleh karena itu, diperlukan pelaksanaan Evaluasi Penyelenggaraan Statistik Sektoral (EPSS) untuk mengukur tingkat kematangan penyelenggaraan statistik pada instansi pemerintah.
@@ -201,7 +212,7 @@
 
                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>Lorem Ipsum.</strong> EPSSmmenghasilkan Indeks Pembangunan Statistik dengan predikat sebagai berikut:
+                        <strong>Lorem Ipsum.</strong> EPSS menghasilkan Indeks Pembangunan Statistik dengan predikat sebagai berikut:
                     </div>
                     <table>
                         <thead>
@@ -210,10 +221,28 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td></td>
+                                <td>4.2 - 5.0</td>
+                                <td>Memuaskan</td>
+                            </tr>
+                            <tr>
+                                <td>3.5 - 4.2</td>
+                                <td>Sangat Baik</td>
+                            </tr>
+                            <tr>
+                                <td>2.6 - 3.5</td>
+                                <td>Baik</td>
+                            </tr>
+                            <tr>
+                                <td>1.8 - 2.6</td>
+                                <td>Cukup</td>
+                            </tr>
+                            <tr>
+                                <td> < 1.8 </td>
+                                <td>Kurang</td>
                             </tr>
                         </tbody>
                     </table>
+                    <br>
                 </div>
             </div>
         </div>

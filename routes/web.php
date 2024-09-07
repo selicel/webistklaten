@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
 
 Route::get('/', function () {
     return view('login');
@@ -9,6 +10,7 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('login');
 });
+Route::post('/login',[loginController::class, 'authenticate']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -40,4 +42,12 @@ Route::get('/Kelembagaan', function () {
 
 Route::get('/StatistikNasional', function () {
     return view('statistikNasional');
+});
+
+Route::get('/profil', function () {
+    return view('profil');
+});
+
+Route::get('/InputNilai', function () {
+    return view('inputNilai');
 });

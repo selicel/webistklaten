@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rekap Penilaian</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="img/logo_epss.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
     <style>
         /* Ensure the body and html take full height */
         html, body {
@@ -53,37 +55,37 @@
                         <tr>
                             <th>Penilaian</th>
                             <th>Kabupaten/Kota</th>
-                            <th>Pelayanan</th>
                             <th>Prinsip SDI</th>
                             <th>Kualitas Data</th>
                             <th>Proses Bisnis Statistik</th>
                             <th>Kelembagaan</th>
                             <th>Statistik Nasional</th>
-                            <th>Total</th>
+                            <th>Total IPS</th>
+                            <th>Predikat</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>BPS</td>
                             <td>Kabupaten Klaten</td>
-                            <td>1.55</td>
                             <td>1.20</td>
                             <td>3.40</td>
                             <td>3.70</td>
                             <td>4.35</td>
                             <td>1.50</td>
                             <td>2.30</td>
+                            <td>Cukup</td>
                         </tr>
                         <tr>
                             <td>Mandiri</td>
-                            <td>OPD</td>
-                            <td>2.22</td>
+                            <td>Dinas Kesehatan</td>
                             <td>3.10</td>
                             <td>3.98</td>
                             <td>4.40</td>
                             <td>4.35</td>
                             <td>3.00</td>
                             <td>3.30</td>
+                            <td>Baik</td>
                         </tr>
                     </tbody>
                 </table>
