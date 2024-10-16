@@ -2,19 +2,11 @@
     "version": 2,
       "framework": null,
     "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.6.0" }
+        "api/index.php": { "runtime": "vercel-php@0.5.0" }
     },
     "routes": [{
         "src": "/(.*)",
         "dest": "/api/index.php"
-    }],
-    "builds": [
-    {
-      "src": "api/index.php",
-      "use": "@vercel/php",
-      "config": {
-        "buildCommand": "apt-get update && apt-get install -y libssl1.0.0"
-      }
     }],
     "env": {
         "APP_ENV": "production",
