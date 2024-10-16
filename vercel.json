@@ -7,6 +7,10 @@
     },
     "routes": [
         {
+            "src": "/css/(.*)",
+            "dest": "resource/css/"
+        },
+        {
             "src": "/img/(.*)",
             "dest": "public/img/"
         },
