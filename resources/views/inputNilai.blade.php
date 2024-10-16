@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Input Nilai</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="img/logo_epss.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="css/app.css">
     <style>
         .content {
             min-height: 250px;
@@ -47,7 +50,7 @@
                                                 <input type="radio" name="kondisi" id="0" value="4"  /><label for="0">&nbsp; 4,00</label><br>
                                                 <input type="radio" name="kondisi" id="0" value="5"  /><label for="0">&nbsp; 5,00</label><br>
                             <label>Jumlah Bukti Dukung</label><input type="text" class="form-control" name="bukti_dukung" id="bukti_dukung" required>
-                            <label>Tautan Bukti Dukung</label><input type="url" class="form-control" name="link_bukti_dukung" id="link_bukti_dukung" required>
+                            <label>Tautan Bukti Dukung</label><input class="form-control" type="file" id="formFile" required>  
                             <label>Catatan Penilaian</label><input type="text" name="catatan" id="catatan" class="form-control">
                 </div>
                 <div class="modal-footer">

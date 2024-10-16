@@ -81,7 +81,7 @@
                         <td><a href="#"  target="_blank" class="btn btn-success"> <i class="fa fa-eye text-white" title="Bukti Dukung"> </i> Lihat</a></td>
                         <td>1,00</td>
                         <td>1,00</td>
-                {{  }}    <!-- <td>0</td>			    -->
+                   <!-- <td>0</td>			    -->
                         <td><font color="32cd32">Dinilai </font></td>	
                         <td><a href="InputNilai" ><i class="bi bi-pen" title="Input Nilai"></i></a></td>
                         <!-- <td><a href="#" onclick="return f_kirim('272');"><i class="fa fa-send text-green" title="Kirim"></i></a></td> -->

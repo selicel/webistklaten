@@ -8,16 +8,43 @@
     <link href="img/logo_epss.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
     <link rel="stylesheet" href="css/app.css">
+    <style>
+        /* Ensure the body and html take full height */
+        html, body {
+            height: 100%;
+        }
+
+        /* Set up flexbox on the body */
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* The main content should take up all remaining space */
+        .content {
+            flex: 1;
+        }
+
+        /* Footer styling */
+        .footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <!-- Include the Navbar -->
     @include('navbar')
+    
 
+    <section class="content" style="width=100%">
     <!-- Content Below Navbar -->
     <div class="container mt-3">
         <h3>Dinas Kesehatan Kabupaten Klaten</h3>
         <!-- Your dashboard content goes here -->
     </div>
+    
     <!-- Main Content -->
     <div class="container">
         <div class="row">
@@ -76,13 +103,14 @@
         </div>
 
         <!-- Graph (Using Chart.js for example) -->
-        <div class="card" style="margin-top: 10px">
+        <!-- <div class="card" style="margin-top: 10px">
             <div class="card-header">Evaluasi Penyelenggaraan Statistik Sektoral Berdasarkan Penilaian</div>
             <div class="card-body">
                 <canvas id="myChart"></canvas>
             </div>
-        </div>
+        </div> -->
     </div>
+    </section>
 
     <!-- Include Footer -->
     @include('footer')
