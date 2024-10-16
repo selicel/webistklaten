@@ -72,7 +72,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
         <a class="navbar-brand" href="dashboard">
-            <img src="img/logo2.png" alt="EPSS Logo" width="90" height="35">
+            <img src="{{ asset("img/logo2.png") }}" alt="EPSS Logo" width="90" height="35">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
