@@ -74,7 +74,7 @@
 </head>
 <body>
     <div class="login-container">
-        <img src="img/logo_epss.png" alt="EPSS Logo">
+        <img src="{{ asset("img/logo_epss.png") }}" alt="EPSS Logo">
         <h2>Login</h2>
         <form action="/login" method="post">
             @csrf
