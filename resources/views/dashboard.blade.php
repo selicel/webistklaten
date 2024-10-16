@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="img/logo_epss.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="{{ asset("css/app.css") }}">
     <style>
         /* Ensure the body and html take full height */
         html, body {
